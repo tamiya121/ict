@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<table border="1">
+
+	<tr>
+		<th colspan="2"> 회원가입</th>
+	</tr>
+	<tr>
+		<th>아이디</th>
+		<td><input type="text" id="id"></td>
+	</tr>
+	<tr>
+		<th>비밀번호</th>
+		<td><input type="password" id="pwd"></td>
+	</tr>
+	<tr>
+		<th>비밀번호 확인</th>
+		<td><input type="password" id="pwdc"></td>
+	</tr>
+	<tr>
+		<th>이름</th>
+		<td><input type="text" id="name"></td>
+	</tr>
+	<tr>
+		<th>나이</th>
+		<td><input type="text" id="age"></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><button type="button" onclick="draw()">회원가입</button></td>
+	</tr>
+	
+</table>
+<script>
+	function draw(){
+		var id =document.querySelector('#id');
+		var ps =document.querySelector('#pwd');
+		var pwd =document.querySelector('#pwdc');
+		var name =document.querySelector('#name');
+		var age =document.querySelector('#age');
+		
+		alert("로그인 성공");
+	}
+	
+</script>
+</body>
+</html>

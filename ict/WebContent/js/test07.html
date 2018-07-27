@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div id="rDiv"></div>
+	
+	열갯수 : <input type="text" id='rCnt'><br> 
+	행갯수 : <input type="text" id='cCnt'><br>
+	<button onclick="draw()">테이블 생성</button>
+	
+	<script>
+		function draw() {
+			var div = document.querySelector('#rCnt');
+			var div1 = document.querySelector('#cCnt');
+			alert(div.value);
+			alert(div1.value);
+		}
+	</script>
+
+</body>
+</html>
